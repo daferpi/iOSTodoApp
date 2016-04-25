@@ -1,0 +1,19 @@
+//
+//  UserLogged.swift
+//  iOSTodoApp
+//
+//  Created by daferpi on 25/04/16.
+//  Copyright © 2016 daferpi. All rights reserved.
+//
+
+import UIKit
+
+struct UserLogged {
+    var userName:String!
+    var password:String!
+    
+    init(userName:String, password:String) {
+        self.userName = userName
+        self.password = password
+    }
+}

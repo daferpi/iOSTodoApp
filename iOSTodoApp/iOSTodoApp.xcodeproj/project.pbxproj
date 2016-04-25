@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188A4E8D1CCEA5CA00ED9207 /* UserLogged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188A4E8C1CCEA5CA00ED9207 /* UserLogged.swift */; };
+		18BA29AC1CCE99EB00BC73E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA29AB1CCE99EB00BC73E9 /* AppDelegate.swift */; };
+		18BA29AE1CCE99EB00BC73E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA29AD1CCE99EB00BC73E9 /* ViewController.swift */; };
+		18BA29B11CCE99EB00BC73E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA29AF1CCE99EB00BC73E9 /* Main.storyboard */; };
+		18BA29B31CCE99EB00BC73E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BA29B21CCE99EB00BC73E9 /* Assets.xcassets */; };
+		18BA29B61CCE99EB00BC73E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA29B41CCE99EB00BC73E9 /* LaunchScreen.storyboard */; };
+		18BA29C11CCE99EB00BC73E9 /* iOSTodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA29C01CCE99EB00BC73E9 /* iOSTodoAppTests.swift */; };
+		18BA29CC1CCE99EB00BC73E9 /* iOSTodoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA29CB1CCE99EB00BC73E9 /* iOSTodoAppUITests.swift */; };
+		18BA29E11CCEA28000BC73E9 /* UserLoggedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA29E01CCEA28000BC73E9 /* UserLoggedTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BA29BD1CCE99EB00BC73E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BA29A01CCE99EB00BC73E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BA29A71CCE99EB00BC73E9;
+			remoteInfo = iOSTodoApp;
+		};
+		18BA29C81CCE99EB00BC73E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BA29A01CCE99EB00BC73E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BA29A71CCE99EB00BC73E9;
+			remoteInfo = iOSTodoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188A4E8C1CCEA5CA00ED9207 /* UserLogged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLogged.swift; sourceTree = "<group>"; };
+		18BA29A81CCE99EB00BC73E9 /* iOSTodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA29AB1CCE99EB00BC73E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BA29AD1CCE99EB00BC73E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BA29B01CCE99EB00BC73E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BA29B21CCE99EB00BC73E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BA29B51CCE99EB00BC73E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BA29B71CCE99EB00BC73E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA29BC1CCE99EB00BC73E9 /* iOSTodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA29C01CCE99EB00BC73E9 /* iOSTodoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTodoAppTests.swift; sourceTree = "<group>"; };
+		18BA29C21CCE99EB00BC73E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA29C71CCE99EB00BC73E9 /* iOSTodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA29CB1CCE99EB00BC73E9 /* iOSTodoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTodoAppUITests.swift; sourceTree = "<group>"; };
+		18BA29CD1CCE99EB00BC73E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA29E01CCEA28000BC73E9 /* UserLoggedTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoggedTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BA29A51CCE99EB00BC73E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA29B91CCE99EB00BC73E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA29C41CCE99EB00BC73E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BA299F1CCE99EB00BC73E9 = {
+			isa = PBXGroup;
+			children = (
+				18BA29AA1CCE99EB00BC73E9 /* iOSTodoApp */,
+				18BA29BF1CCE99EB00BC73E9 /* iOSTodoAppTests */,
+				18BA29CA1CCE99EB00BC73E9 /* iOSTodoAppUITests */,
+				18BA29A91CCE99EB00BC73E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BA29A91CCE99EB00BC73E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BA29A81CCE99EB00BC73E9 /* iOSTodoApp.app */,
+				18BA29BC1CCE99EB00BC73E9 /* iOSTodoAppTests.xctest */,
+				18BA29C71CCE99EB00BC73E9 /* iOSTodoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BA29AA1CCE99EB00BC73E9 /* iOSTodoApp */ = {
+			isa = PBXGroup;
+			children = (
+				18BA29DD1CCEA10200BC73E9 /* loginModule */,
+				18BA29AB1CCE99EB00BC73E9 /* AppDelegate.swift */,
+				18BA29AD1CCE99EB00BC73E9 /* ViewController.swift */,
+				18BA29AF1CCE99EB00BC73E9 /* Main.storyboard */,
+				18BA29B21CCE99EB00BC73E9 /* Assets.xcassets */,
+				18BA29B41CCE99EB00BC73E9 /* LaunchScreen.storyboard */,
+				18BA29B71CCE99EB00BC73E9 /* Info.plist */,
+			);
+			path = iOSTodoApp;
+			sourceTree = "<group>";
+		};
+		18BA29BF1CCE99EB00BC73E9 /* iOSTodoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BA29DC1CCE9C8200BC73E9 /* loginModuleTest */,
+				18BA29C01CCE99EB00BC73E9 /* iOSTodoAppTests.swift */,
+				18BA29C21CCE99EB00BC73E9 /* Info.plist */,
+			);
+			path = iOSTodoAppTests;
+			sourceTree = "<group>";
+		};
+		18BA29CA1CCE99EB00BC73E9 /* iOSTodoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18BA29CB1CCE99EB00BC73E9 /* iOSTodoAppUITests.swift */,
+				18BA29CD1CCE99EB00BC73E9 /* Info.plist */,
+			);
+			path = iOSTodoAppUITests;
+			sourceTree = "<group>";
+		};
+		18BA29DC1CCE9C8200BC73E9 /* loginModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				18BA29DF1CCEA13900BC73E9 /* domainTest */,
+			);
+			path = loginModuleTest;
+			sourceTree = "<group>";
+		};
+		18BA29DD1CCEA10200BC73E9 /* loginModule */ = {
+			isa = PBXGroup;
+			children = (
+				18BA29DE1CCEA12100BC73E9 /* domain */,
+			);
+			path = loginModule;
+			sourceTree = "<group>";
+		};
+		18BA29DE1CCEA12100BC73E9 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				188A4E8C1CCEA5CA00ED9207 /* UserLogged.swift */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		18BA29DF1CCEA13900BC73E9 /* domainTest */ = {
+			isa = PBXGroup;
+			children = (
+				18BA29E01CCEA28000BC73E9 /* UserLoggedTests.swift */,
+			);
+			path = domainTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BA29A71CCE99EB00BC73E9 /* iOSTodoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA29D01CCE99EC00BC73E9 /* Build configuration list for PBXNativeTarget "iOSTodoApp" */;
+			buildPhases = (
+				18BA29A41CCE99EB00BC73E9 /* Sources */,
+				18BA29A51CCE99EB00BC73E9 /* Frameworks */,
+				18BA29A61CCE99EB00BC73E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTodoApp;
+			productName = iOSTodoApp;
+			productReference = 18BA29A81CCE99EB00BC73E9 /* iOSTodoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BA29BB1CCE99EB00BC73E9 /* iOSTodoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA29D31CCE99EC00BC73E9 /* Build configuration list for PBXNativeTarget "iOSTodoAppTests" */;
+			buildPhases = (
+				18BA29B81CCE99EB00BC73E9 /* Sources */,
+				18BA29B91CCE99EB00BC73E9 /* Frameworks */,
+				18BA29BA1CCE99EB00BC73E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BA29BE1CCE99EB00BC73E9 /* PBXTargetDependency */,
+			);
+			name = iOSTodoAppTests;
+			productName = iOSTodoAppTests;
+			productReference = 18BA29BC1CCE99EB00BC73E9 /* iOSTodoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BA29C61CCE99EB00BC73E9 /* iOSTodoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA29D61CCE99EC00BC73E9 /* Build configuration list for PBXNativeTarget "iOSTodoAppUITests" */;
+			buildPhases = (
+				18BA29C31CCE99EB00BC73E9 /* Sources */,
+				18BA29C41CCE99EB00BC73E9 /* Frameworks */,
+				18BA29C51CCE99EB00BC73E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BA29C91CCE99EB00BC73E9 /* PBXTargetDependency */,
+			);
+			name = iOSTodoAppUITests;
+			productName = iOSTodoAppUITests;
+			productReference = 18BA29C71CCE99EB00BC73E9 /* iOSTodoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BA29A01CCE99EB00BC73E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = daferpi;
+				TargetAttributes = {
+					18BA29A71CCE99EB00BC73E9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4T652UKED3;
+					};
+					18BA29BB1CCE99EB00BC73E9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18BA29A71CCE99EB00BC73E9;
+					};
+					18BA29C61CCE99EB00BC73E9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18BA29A71CCE99EB00BC73E9;
+					};
+				};
+			};
+			buildConfigurationList = 18BA29A31CCE99EB00BC73E9 /* Build configuration list for PBXProject "iOSTodoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BA299F1CCE99EB00BC73E9;
+			productRefGroup = 18BA29A91CCE99EB00BC73E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BA29A71CCE99EB00BC73E9 /* iOSTodoApp */,
+				18BA29BB1CCE99EB00BC73E9 /* iOSTodoAppTests */,
+				18BA29C61CCE99EB00BC73E9 /* iOSTodoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BA29A61CCE99EB00BC73E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA29B61CCE99EB00BC73E9 /* LaunchScreen.storyboard in Resources */,
+				18BA29B31CCE99EB00BC73E9 /* Assets.xcassets in Resources */,
+				18BA29B11CCE99EB00BC73E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA29BA1CCE99EB00BC73E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA29C51CCE99EB00BC73E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BA29A41CCE99EB00BC73E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA29AE1CCE99EB00BC73E9 /* ViewController.swift in Sources */,
+				18BA29AC1CCE99EB00BC73E9 /* AppDelegate.swift in Sources */,
+				188A4E8D1CCEA5CA00ED9207 /* UserLogged.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA29B81CCE99EB00BC73E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA29E11CCEA28000BC73E9 /* UserLoggedTests.swift in Sources */,
+				18BA29C11CCE99EB00BC73E9 /* iOSTodoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA29C31CCE99EB00BC73E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA29CC1CCE99EB00BC73E9 /* iOSTodoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BA29BE1CCE99EB00BC73E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BA29A71CCE99EB00BC73E9 /* iOSTodoApp */;
+			targetProxy = 18BA29BD1CCE99EB00BC73E9 /* PBXContainerItemProxy */;
+		};
+		18BA29C91CCE99EB00BC73E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BA29A71CCE99EB00BC73E9 /* iOSTodoApp */;
+			targetProxy = 18BA29C81CCE99EB00BC73E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BA29AF1CCE99EB00BC73E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA29B01CCE99EB00BC73E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BA29B41CCE99EB00BC73E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA29B51CCE99EB00BC73E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BA29CE1CCE99EB00BC73E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BA29CF1CCE99EB00BC73E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BA29D11CCE99EC00BC73E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOSTodoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daferpi.iOSTodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18BA29D21CCE99EC00BC73E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = iOSTodoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daferpi.iOSTodoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18BA29D41CCE99EC00BC73E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSTodoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daferpi.iOSTodoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTodoApp.app/iOSTodoApp";
+			};
+			name = Debug;
+		};
+		18BA29D51CCE99EC00BC73E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSTodoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daferpi.iOSTodoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTodoApp.app/iOSTodoApp";
+			};
+			name = Release;
+		};
+		18BA29D71CCE99EC00BC73E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSTodoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daferpi.iOSTodoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSTodoApp;
+			};
+			name = Debug;
+		};
+		18BA29D81CCE99EC00BC73E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSTodoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daferpi.iOSTodoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSTodoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BA29A31CCE99EB00BC73E9 /* Build configuration list for PBXProject "iOSTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA29CE1CCE99EB00BC73E9 /* Debug */,
+				18BA29CF1CCE99EB00BC73E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA29D01CCE99EC00BC73E9 /* Build configuration list for PBXNativeTarget "iOSTodoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA29D11CCE99EC00BC73E9 /* Debug */,
+				18BA29D21CCE99EC00BC73E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA29D31CCE99EC00BC73E9 /* Build configuration list for PBXNativeTarget "iOSTodoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA29D41CCE99EC00BC73E9 /* Debug */,
+				18BA29D51CCE99EC00BC73E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA29D61CCE99EC00BC73E9 /* Build configuration list for PBXNativeTarget "iOSTodoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA29D71CCE99EC00BC73E9 /* Debug */,
+				18BA29D81CCE99EC00BC73E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BA29A01CCE99EB00BC73E9 /* Project object */;
+}
