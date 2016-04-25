@@ -11,9 +11,11 @@ import XCTest
 
 class UserLoggedTests: XCTestCase {
     
+    var userLogged:UserLogged!
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        self.userLogged = UserLogged(userName: "abel", password:"test1")
     }
     
     override func tearDown() {
@@ -23,10 +25,21 @@ class UserLoggedTests: XCTestCase {
     
     
     func testUserLoggedCreation() {
-        let userLogged:UserLogged = UserLogged(userName: "abel", password:"test1");
         XCTAssertNotNil(userLogged)
         XCTAssertEqual(userLogged.userName, "abel")
         XCTAssertEqual(userLogged.password, "test1")
+    }
+    
+    func testUserValidateCredentialsOk() {
+        XCTAssertTrue(self.userLogged.validateCredentials("test1"))
+    }
+    
+    func testUserValidateCredentialsFail() {
+        XCTAssertFalse(self.userLogged.validateCredentials("test"))
+    }
+    
+    func testUserValidateCredentialsParameterNil() {
+        XCTAssertFalse(self.userLogged.validateCredentials(nil))
     }
     
 }

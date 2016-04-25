@@ -8,7 +8,8 @@
 
 import UIKit
 
-struct UserLogged {
+struct UserLogged:User, UserValidator {
+    
     var userName:String!
     var password:String!
     
@@ -16,4 +17,13 @@ struct UserLogged {
         self.userName = userName
         self.password = password
     }
+    
+    func validateCredentials(password: String?) -> Bool {
+        if let pass = password where self.password == pass {
+            return true
+        }
+        return false
+    }
+    
+    
 }
